@@ -1,0 +1,10 @@
+framework module Thnx {
+  umbrella header "Thnx.h"
+
+  export *
+  module * { export * }
+}
+
+module Thnx.Swift {
+    header "Thnx-Swift.h"
+}
