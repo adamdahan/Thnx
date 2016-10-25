@@ -8,30 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		9A0F36DF1DBEA81000DBC8A3 /* Thnx.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A0F36DD1DBEA81000DBC8A3 /* Thnx.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9A0F36EB1DBEA82200DBC8A3 /* Thnx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0F36E51DBEA82200DBC8A3 /* Thnx.swift */; };
-		9A0F36EC1DBEA82200DBC8A3 /* ThnxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0F36E61DBEA82200DBC8A3 /* ThnxViewController.swift */; };
-		9A0F36ED1DBEA82200DBC8A3 /* ThnxViewController+Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0F36E71DBEA82200DBC8A3 /* ThnxViewController+Layout.swift */; };
-		9A0F36EE1DBEA82200DBC8A3 /* ThnxViewController+Preparation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0F36E81DBEA82200DBC8A3 /* ThnxViewController+Preparation.swift */; };
-		9A0F36EF1DBEA82200DBC8A3 /* ThnxViewController+UITableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0F36E91DBEA82200DBC8A3 /* ThnxViewController+UITableViewDataSource.swift */; };
-		9A0F36F01DBEA82200DBC8A3 /* ThnxViewController+UITableViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0F36EA1DBEA82200DBC8A3 /* ThnxViewController+UITableViewDelegate.swift */; };
-		9A0F36F11DBEA83700DBC8A3 /* Thnx.swift in Headers */ = {isa = PBXBuildFile; fileRef = 9A0F36E51DBEA82200DBC8A3 /* Thnx.swift */; settings = {ATTRIBUTES = (Public, ); }; };
-		9A0F36F21DBEA83700DBC8A3 /* ThnxViewController.swift in Headers */ = {isa = PBXBuildFile; fileRef = 9A0F36E61DBEA82200DBC8A3 /* ThnxViewController.swift */; settings = {ATTRIBUTES = (Public, ); }; };
-		9A0F36F31DBEA83700DBC8A3 /* ThnxViewController+Layout.swift in Headers */ = {isa = PBXBuildFile; fileRef = 9A0F36E71DBEA82200DBC8A3 /* ThnxViewController+Layout.swift */; settings = {ATTRIBUTES = (Public, ); }; };
-		9A0F36F41DBEA83700DBC8A3 /* ThnxViewController+Preparation.swift in Headers */ = {isa = PBXBuildFile; fileRef = 9A0F36E81DBEA82200DBC8A3 /* ThnxViewController+Preparation.swift */; settings = {ATTRIBUTES = (Public, ); }; };
-		9A0F36F51DBEA83700DBC8A3 /* ThnxViewController+UITableViewDataSource.swift in Headers */ = {isa = PBXBuildFile; fileRef = 9A0F36E91DBEA82200DBC8A3 /* ThnxViewController+UITableViewDataSource.swift */; settings = {ATTRIBUTES = (Public, ); }; };
-		9A0F36F61DBEA83700DBC8A3 /* ThnxViewController+UITableViewDelegate.swift in Headers */ = {isa = PBXBuildFile; fileRef = 9A0F36EA1DBEA82200DBC8A3 /* ThnxViewController+UITableViewDelegate.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A4DE4DE1DC0234B00052003 /* Thnx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4DE4D71DC0234B00052003 /* Thnx.swift */; };
+		9A4DE4DF1DC0234B00052003 /* ThnxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4DE4D81DC0234B00052003 /* ThnxViewController.swift */; };
+		9A4DE4E01DC0234B00052003 /* ThnxViewController+Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4DE4D91DC0234B00052003 /* ThnxViewController+Layout.swift */; };
+		9A4DE4E11DC0234B00052003 /* ThnxViewController+Preparation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4DE4DA1DC0234B00052003 /* ThnxViewController+Preparation.swift */; };
+		9A4DE4E21DC0234B00052003 /* ThnxViewController+UITableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4DE4DB1DC0234B00052003 /* ThnxViewController+UITableViewDataSource.swift */; };
+		9A4DE4E31DC0234B00052003 /* ThnxViewController+UITableViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4DE4DC1DC0234B00052003 /* ThnxViewController+UITableViewDelegate.swift */; };
+		9A4DE4E41DC0234B00052003 /* Url.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4DE4DD1DC0234B00052003 /* Url.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9A0F36DA1DBEA81000DBC8A3 /* Thnx.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Thnx.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A0F36DD1DBEA81000DBC8A3 /* Thnx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Thnx.h; sourceTree = "<group>"; };
 		9A0F36DE1DBEA81000DBC8A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9A0F36E51DBEA82200DBC8A3 /* Thnx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Thnx.swift; sourceTree = "<group>"; };
-		9A0F36E61DBEA82200DBC8A3 /* ThnxViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThnxViewController.swift; sourceTree = "<group>"; };
-		9A0F36E71DBEA82200DBC8A3 /* ThnxViewController+Layout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ThnxViewController+Layout.swift"; sourceTree = "<group>"; };
-		9A0F36E81DBEA82200DBC8A3 /* ThnxViewController+Preparation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ThnxViewController+Preparation.swift"; sourceTree = "<group>"; };
-		9A0F36E91DBEA82200DBC8A3 /* ThnxViewController+UITableViewDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ThnxViewController+UITableViewDataSource.swift"; sourceTree = "<group>"; };
-		9A0F36EA1DBEA82200DBC8A3 /* ThnxViewController+UITableViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ThnxViewController+UITableViewDelegate.swift"; sourceTree = "<group>"; };
+		9A4DE4D71DC0234B00052003 /* Thnx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Thnx.swift; sourceTree = "<group>"; };
+		9A4DE4D81DC0234B00052003 /* ThnxViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThnxViewController.swift; sourceTree = "<group>"; };
+		9A4DE4D91DC0234B00052003 /* ThnxViewController+Layout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ThnxViewController+Layout.swift"; sourceTree = "<group>"; };
+		9A4DE4DA1DC0234B00052003 /* ThnxViewController+Preparation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ThnxViewController+Preparation.swift"; sourceTree = "<group>"; };
+		9A4DE4DB1DC0234B00052003 /* ThnxViewController+UITableViewDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ThnxViewController+UITableViewDataSource.swift"; sourceTree = "<group>"; };
+		9A4DE4DC1DC0234B00052003 /* ThnxViewController+UITableViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ThnxViewController+UITableViewDelegate.swift"; sourceTree = "<group>"; };
+		9A4DE4DD1DC0234B00052003 /* Url.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Url.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,12 +61,13 @@
 			isa = PBXGroup;
 			children = (
 				9A0F36DD1DBEA81000DBC8A3 /* Thnx.h */,
-				9A0F36E51DBEA82200DBC8A3 /* Thnx.swift */,
-				9A0F36E61DBEA82200DBC8A3 /* ThnxViewController.swift */,
-				9A0F36E71DBEA82200DBC8A3 /* ThnxViewController+Layout.swift */,
-				9A0F36E81DBEA82200DBC8A3 /* ThnxViewController+Preparation.swift */,
-				9A0F36E91DBEA82200DBC8A3 /* ThnxViewController+UITableViewDataSource.swift */,
-				9A0F36EA1DBEA82200DBC8A3 /* ThnxViewController+UITableViewDelegate.swift */,
+				9A4DE4D71DC0234B00052003 /* Thnx.swift */,
+				9A4DE4D81DC0234B00052003 /* ThnxViewController.swift */,
+				9A4DE4D91DC0234B00052003 /* ThnxViewController+Layout.swift */,
+				9A4DE4DA1DC0234B00052003 /* ThnxViewController+Preparation.swift */,
+				9A4DE4DB1DC0234B00052003 /* ThnxViewController+UITableViewDataSource.swift */,
+				9A4DE4DC1DC0234B00052003 /* ThnxViewController+UITableViewDelegate.swift */,
+				9A4DE4DD1DC0234B00052003 /* Url.swift */,
 				9A0F36DE1DBEA81000DBC8A3 /* Info.plist */,
 			);
 			path = Thnx;
@@ -84,12 +81,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A0F36DF1DBEA81000DBC8A3 /* Thnx.h in Headers */,
-				9A0F36F11DBEA83700DBC8A3 /* Thnx.swift in Headers */,
-				9A0F36F21DBEA83700DBC8A3 /* ThnxViewController.swift in Headers */,
-				9A0F36F31DBEA83700DBC8A3 /* ThnxViewController+Layout.swift in Headers */,
-				9A0F36F41DBEA83700DBC8A3 /* ThnxViewController+Preparation.swift in Headers */,
-				9A0F36F51DBEA83700DBC8A3 /* ThnxViewController+UITableViewDataSource.swift in Headers */,
-				9A0F36F61DBEA83700DBC8A3 /* ThnxViewController+UITableViewDelegate.swift in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,12 +154,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A0F36EE1DBEA82200DBC8A3 /* ThnxViewController+Preparation.swift in Sources */,
-				9A0F36F01DBEA82200DBC8A3 /* ThnxViewController+UITableViewDelegate.swift in Sources */,
-				9A0F36EC1DBEA82200DBC8A3 /* ThnxViewController.swift in Sources */,
-				9A0F36ED1DBEA82200DBC8A3 /* ThnxViewController+Layout.swift in Sources */,
-				9A0F36EB1DBEA82200DBC8A3 /* Thnx.swift in Sources */,
-				9A0F36EF1DBEA82200DBC8A3 /* ThnxViewController+UITableViewDataSource.swift in Sources */,
+				9A4DE4E11DC0234B00052003 /* ThnxViewController+Preparation.swift in Sources */,
+				9A4DE4E31DC0234B00052003 /* ThnxViewController+UITableViewDelegate.swift in Sources */,
+				9A4DE4E41DC0234B00052003 /* Url.swift in Sources */,
+				9A4DE4DF1DC0234B00052003 /* ThnxViewController.swift in Sources */,
+				9A4DE4E01DC0234B00052003 /* ThnxViewController+Layout.swift in Sources */,
+				9A4DE4DE1DC0234B00052003 /* Thnx.swift in Sources */,
+				9A4DE4E21DC0234B00052003 /* ThnxViewController+UITableViewDataSource.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,6 +326,7 @@
 				9A0F36E41DBEA81000DBC8A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

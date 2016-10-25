@@ -28,31 +28,15 @@
  * OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-import UIKit
+import Foundation
 
-public extension ThnxViewController {
- 
-    /**
-     :name: prepareView
-    */
-    public func prepareView() {
-        view.backgroundColor = UIColor.white
-    }
+open class Url {
     
-    /**
-     :name: prepareTableView
-    */
-    public func prepareTableView() {
-        tableView.dataSource = self
-        tableView.delegate = self
-        tableView.register(UITableViewCell.self, forCellReuseIdentifier: "Cell")
-        view.addSubview(tableView)
-    }
-
-    /**
-     :name: prepareLicenses
-    */
-    public func prepareLicenses() {
-        licenses = t.licenses(urls: self.urls)
-    }
+    // common ios github repos
+    open static let Alamofire = "https://github.com/Alamofire/Alamofire"
+    open static let Material = "https://github.com/CosmicMind/Material"
+    open static let Graph = "https://github.com/CosmicMind/Graph"
+    open static let Algorithm = "https://github.com/CosmicMind/Algorithm"
+    open static let MBProgressHUD = "https://github.com/jdg/MBProgressHUD"
+    open static let ImagePicker = "https://github.com/hyperoslo/ImagePicker"
 }
