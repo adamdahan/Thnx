@@ -7,31 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9A0F36DF1DBEA81000DBC8A3 /* Thnx.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A0F36DD1DBEA81000DBC8A3 /* Thnx.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9A4DE4DE1DC0234B00052003 /* Thnx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4DE4D71DC0234B00052003 /* Thnx.swift */; };
-		9A4DE4DF1DC0234B00052003 /* ThnxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4DE4D81DC0234B00052003 /* ThnxViewController.swift */; };
-		9A4DE4E01DC0234B00052003 /* ThnxViewController+Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4DE4D91DC0234B00052003 /* ThnxViewController+Layout.swift */; };
-		9A4DE4E11DC0234B00052003 /* ThnxViewController+Preparation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4DE4DA1DC0234B00052003 /* ThnxViewController+Preparation.swift */; };
-		9A4DE4E21DC0234B00052003 /* ThnxViewController+UITableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4DE4DB1DC0234B00052003 /* ThnxViewController+UITableViewDataSource.swift */; };
-		9A4DE4E31DC0234B00052003 /* ThnxViewController+UITableViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4DE4DC1DC0234B00052003 /* ThnxViewController+UITableViewDelegate.swift */; };
-		9A4DE4E41DC0234B00052003 /* Url.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4DE4DD1DC0234B00052003 /* Url.swift */; };
+		9AFA38C11DC12E77007B99EB /* Thnx.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AFA38BF1DC12E77007B99EB /* Thnx.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9A0F36DA1DBEA81000DBC8A3 /* Thnx.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Thnx.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9A0F36DD1DBEA81000DBC8A3 /* Thnx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Thnx.h; sourceTree = "<group>"; };
-		9A0F36DE1DBEA81000DBC8A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9A4DE4D71DC0234B00052003 /* Thnx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Thnx.swift; sourceTree = "<group>"; };
-		9A4DE4D81DC0234B00052003 /* ThnxViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThnxViewController.swift; sourceTree = "<group>"; };
-		9A4DE4D91DC0234B00052003 /* ThnxViewController+Layout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ThnxViewController+Layout.swift"; sourceTree = "<group>"; };
-		9A4DE4DA1DC0234B00052003 /* ThnxViewController+Preparation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ThnxViewController+Preparation.swift"; sourceTree = "<group>"; };
-		9A4DE4DB1DC0234B00052003 /* ThnxViewController+UITableViewDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ThnxViewController+UITableViewDataSource.swift"; sourceTree = "<group>"; };
-		9A4DE4DC1DC0234B00052003 /* ThnxViewController+UITableViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ThnxViewController+UITableViewDelegate.swift"; sourceTree = "<group>"; };
-		9A4DE4DD1DC0234B00052003 /* Url.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Url.swift; sourceTree = "<group>"; };
+		9AFA38BC1DC12E77007B99EB /* Thnx.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Thnx.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AFA38BF1DC12E77007B99EB /* Thnx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Thnx.h; sourceTree = "<group>"; };
+		9AFA38C01DC12E77007B99EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		9A0F36D61DBEA81000DBC8A3 /* Frameworks */ = {
+		9AFA38B81DC12E77007B99EB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,34 +27,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9A0F36D01DBEA81000DBC8A3 = {
+		9AFA38B21DC12E77007B99EB = {
 			isa = PBXGroup;
 			children = (
-				9A0F36DC1DBEA81000DBC8A3 /* Thnx */,
-				9A0F36DB1DBEA81000DBC8A3 /* Products */,
+				9AFA38BE1DC12E77007B99EB /* Thnx */,
+				9AFA38BD1DC12E77007B99EB /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		9A0F36DB1DBEA81000DBC8A3 /* Products */ = {
+		9AFA38BD1DC12E77007B99EB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9A0F36DA1DBEA81000DBC8A3 /* Thnx.framework */,
+				9AFA38BC1DC12E77007B99EB /* Thnx.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9A0F36DC1DBEA81000DBC8A3 /* Thnx */ = {
+		9AFA38BE1DC12E77007B99EB /* Thnx */ = {
 			isa = PBXGroup;
 			children = (
-				9A0F36DD1DBEA81000DBC8A3 /* Thnx.h */,
-				9A4DE4D71DC0234B00052003 /* Thnx.swift */,
-				9A4DE4D81DC0234B00052003 /* ThnxViewController.swift */,
-				9A4DE4D91DC0234B00052003 /* ThnxViewController+Layout.swift */,
-				9A4DE4DA1DC0234B00052003 /* ThnxViewController+Preparation.swift */,
-				9A4DE4DB1DC0234B00052003 /* ThnxViewController+UITableViewDataSource.swift */,
-				9A4DE4DC1DC0234B00052003 /* ThnxViewController+UITableViewDelegate.swift */,
-				9A4DE4DD1DC0234B00052003 /* Url.swift */,
-				9A0F36DE1DBEA81000DBC8A3 /* Info.plist */,
+				9AFA38BF1DC12E77007B99EB /* Thnx.h */,
+				9AFA38C01DC12E77007B99EB /* Info.plist */,
 			);
 			path = Thnx;
 			sourceTree = "<group>";
@@ -76,25 +55,25 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		9A0F36D71DBEA81000DBC8A3 /* Headers */ = {
+		9AFA38B91DC12E77007B99EB /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A0F36DF1DBEA81000DBC8A3 /* Thnx.h in Headers */,
+				9AFA38C11DC12E77007B99EB /* Thnx.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		9A0F36D91DBEA81000DBC8A3 /* Thnx */ = {
+		9AFA38BB1DC12E77007B99EB /* Thnx */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9A0F36E21DBEA81000DBC8A3 /* Build configuration list for PBXNativeTarget "Thnx" */;
+			buildConfigurationList = 9AFA38C41DC12E77007B99EB /* Build configuration list for PBXNativeTarget "Thnx" */;
 			buildPhases = (
-				9A0F36D51DBEA81000DBC8A3 /* Sources */,
-				9A0F36D61DBEA81000DBC8A3 /* Frameworks */,
-				9A0F36D71DBEA81000DBC8A3 /* Headers */,
-				9A0F36D81DBEA81000DBC8A3 /* Resources */,
+				9AFA38B71DC12E77007B99EB /* Sources */,
+				9AFA38B81DC12E77007B99EB /* Frameworks */,
+				9AFA38B91DC12E77007B99EB /* Headers */,
+				9AFA38BA1DC12E77007B99EB /* Resources */,
 			);
 			buildRules = (
 			);
@@ -102,45 +81,44 @@
 			);
 			name = Thnx;
 			productName = Thnx;
-			productReference = 9A0F36DA1DBEA81000DBC8A3 /* Thnx.framework */;
+			productReference = 9AFA38BC1DC12E77007B99EB /* Thnx.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		9A0F36D11DBEA81000DBC8A3 /* Project object */ = {
+		9AFA38B31DC12E77007B99EB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = 88Labs;
 				TargetAttributes = {
-					9A0F36D91DBEA81000DBC8A3 = {
+					9AFA38BB1DC12E77007B99EB = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = 5YZ5P93LKC;
-						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 9A0F36D41DBEA81000DBC8A3 /* Build configuration list for PBXProject "Thnx" */;
+			buildConfigurationList = 9AFA38B61DC12E77007B99EB /* Build configuration list for PBXProject "Thnx" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 9A0F36D01DBEA81000DBC8A3;
-			productRefGroup = 9A0F36DB1DBEA81000DBC8A3 /* Products */;
+			mainGroup = 9AFA38B21DC12E77007B99EB;
+			productRefGroup = 9AFA38BD1DC12E77007B99EB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9A0F36D91DBEA81000DBC8A3 /* Thnx */,
+				9AFA38BB1DC12E77007B99EB /* Thnx */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		9A0F36D81DBEA81000DBC8A3 /* Resources */ = {
+		9AFA38BA1DC12E77007B99EB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -150,24 +128,17 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		9A0F36D51DBEA81000DBC8A3 /* Sources */ = {
+		9AFA38B71DC12E77007B99EB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A4DE4E11DC0234B00052003 /* ThnxViewController+Preparation.swift in Sources */,
-				9A4DE4E31DC0234B00052003 /* ThnxViewController+UITableViewDelegate.swift in Sources */,
-				9A4DE4E41DC0234B00052003 /* Url.swift in Sources */,
-				9A4DE4DF1DC0234B00052003 /* ThnxViewController.swift in Sources */,
-				9A4DE4E01DC0234B00052003 /* ThnxViewController+Layout.swift in Sources */,
-				9A4DE4DE1DC0234B00052003 /* Thnx.swift in Sources */,
-				9A4DE4E21DC0234B00052003 /* ThnxViewController+UITableViewDataSource.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		9A0F36E01DBEA81000DBC8A3 /* Debug */ = {
+		9AFA38C21DC12E77007B99EB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -220,7 +191,7 @@
 			};
 			name = Debug;
 		};
-		9A0F36E11DBEA81000DBC8A3 /* Release */ = {
+		9AFA38C31DC12E77007B99EB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -266,10 +237,9 @@
 			};
 			name = Release;
 		};
-		9A0F36E31DBEA81000DBC8A3 /* Debug */ = {
+		9AFA38C51DC12E77007B99EB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 5YZ5P93LKC;
@@ -282,15 +252,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.adamdahan.Thnx;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
-		9A0F36E41DBEA81000DBC8A3 /* Release */ = {
+		9AFA38C61DC12E77007B99EB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 5YZ5P93LKC;
@@ -310,25 +278,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9A0F36D41DBEA81000DBC8A3 /* Build configuration list for PBXProject "Thnx" */ = {
+		9AFA38B61DC12E77007B99EB /* Build configuration list for PBXProject "Thnx" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9A0F36E01DBEA81000DBC8A3 /* Debug */,
-				9A0F36E11DBEA81000DBC8A3 /* Release */,
+				9AFA38C21DC12E77007B99EB /* Debug */,
+				9AFA38C31DC12E77007B99EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9A0F36E21DBEA81000DBC8A3 /* Build configuration list for PBXNativeTarget "Thnx" */ = {
+		9AFA38C41DC12E77007B99EB /* Build configuration list for PBXNativeTarget "Thnx" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9A0F36E31DBEA81000DBC8A3 /* Debug */,
-				9A0F36E41DBEA81000DBC8A3 /* Release */,
+				9AFA38C51DC12E77007B99EB /* Debug */,
+				9AFA38C61DC12E77007B99EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 9A0F36D11DBEA81000DBC8A3 /* Project object */;
+	rootObject = 9AFA38B31DC12E77007B99EB /* Project object */;
 }

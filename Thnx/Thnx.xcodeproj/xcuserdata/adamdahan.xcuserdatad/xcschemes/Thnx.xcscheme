@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "9A0F36D91DBEA81000DBC8A3"
+               BlueprintIdentifier = "9AFA38BB1DC12E77007B99EB"
                BuildableName = "Thnx.framework"
                BlueprintName = "Thnx"
                ReferencedContainer = "container:Thnx.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9A0F36D91DBEA81000DBC8A3"
+            BlueprintIdentifier = "9AFA38BB1DC12E77007B99EB"
             BuildableName = "Thnx.framework"
             BlueprintName = "Thnx"
             ReferencedContainer = "container:Thnx.xcodeproj">
@@ -63,7 +63,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9A0F36D91DBEA81000DBC8A3"
+            BlueprintIdentifier = "9AFA38BB1DC12E77007B99EB"
             BuildableName = "Thnx.framework"
             BlueprintName = "Thnx"
             ReferencedContainer = "container:Thnx.xcodeproj">
