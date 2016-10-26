@@ -10,6 +10,8 @@
 		9A4DE4F21DC0244800052003 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4DE4F11DC0244800052003 /* AppDelegate.swift */; };
 		9A4DE4F91DC0244800052003 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A4DE4F81DC0244800052003 /* Assets.xcassets */; };
 		9A4DE4FC1DC0244800052003 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A4DE4FA1DC0244800052003 /* LaunchScreen.storyboard */; };
+		9AFA38EB1DC12FA6007B99EB /* Thnx.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AFA38EA1DC12FA6007B99EB /* Thnx.framework */; };
+		9AFA38EC1DC12FA6007B99EB /* Thnx.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9AFA38EA1DC12FA6007B99EB /* Thnx.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -19,6 +21,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				9AFA38EC1DC12FA6007B99EB /* Thnx.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -31,6 +34,7 @@
 		9A4DE4F81DC0244800052003 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9A4DE4FB1DC0244800052003 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9A4DE4FD1DC0244800052003 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AFA38EA1DC12FA6007B99EB /* Thnx.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Thnx.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9AFA38EB1DC12FA6007B99EB /* Thnx.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,6 +52,7 @@
 		9A4DE4E51DC0244800052003 = {
 			isa = PBXGroup;
 			children = (
+				9AFA38EA1DC12FA6007B99EB /* Thnx.framework */,
 				9A4DE4F01DC0244800052003 /* Example */,
 				9A4DE4EF1DC0244800052003 /* Products */,
 			);
