@@ -1,2 +1,1 @@
-# Thnx
-Open Source Library Licensing Framework for iOS Projects
+![Thnx](https://github.com/adamdahan/Thnx/blob/master/logo-big.png)
