@@ -10,7 +10,7 @@ Thnx is a Open Source Library Attribution framework that is used to credit the t
 
 ## About Thnx
 
-Github has a large iOS open source community and we wanted to give a way to open source consumers to say Thnx. 
+Github has a large iOS open source community and we wanted to give a way for their consumers to say Thnx. 
 
 ## Features
 
