@@ -58,7 +58,7 @@ extension AppDelegate {
 
     func prepareWindow() {
         window = UIWindow(frame: UIScreen.main.bounds)
-        window?.rootViewController = UINavigationController(rootViewController: thnxViewController) // customThnxViewController
+        window?.rootViewController = UINavigationController(rootViewController: thnxViewController)
         window?.makeKeyAndVisible()
     }
 }
