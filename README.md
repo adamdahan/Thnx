@@ -6,9 +6,9 @@ Thnx is a Open Source Library Attribution framework that is used to credit the t
 
 
 <a href="url">
-<img src="https://github.com/adamdahan/Thnx/blob/master/README-assets/readme-gif.gif" height="540" width="320" >
-<img src="https://github.com/adamdahan/Thnx/blob/master/README-assets/snapshot1.png" height="540" width="320" >
-<img src="https://github.com/adamdahan/Thnx/blob/master/README-assets/readme-gif.gif" height="540" width="320" >
+<img src="https://github.com/adamdahan/Thnx/blob/master/README-assets/readme-gif.gif" height="520" width="300" >
+<img src="https://github.com/adamdahan/Thnx/blob/master/README-assets/snapshot2.png" height="520" width="300" >
+<img src="https://github.com/adamdahan/Thnx/blob/master/README-assets/snapshot3.png" height="520" width="300" >
 </a>
 
 
