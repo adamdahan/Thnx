@@ -1,4 +1,4 @@
-![Thnx](https://github.com/adamdahan/Thnx/blob/master/README-assets/logo-big-bg.png)
+![Thnx](https://github.com/adamdahan/Thnx/blob/master/README-assets/logo-big.png)
 
 ## Welcome to Thnx
 
@@ -11,8 +11,9 @@ Thnx is a Fully Customizable Open Source Library Attribution framework that is u
 <img src="https://github.com/adamdahan/Thnx/blob/master/README-assets/snapshot3.png" height="500" width="290" >
 </a>
 
+## Latest example project
 
-* [Download the latest example](https://github.com/adamdahan/Thnx/tree/master/Example).
+- [Download the latest example](https://github.com/adamdahan/Thnx/tree/master/Example).
 
 ## Features
 
