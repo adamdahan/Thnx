@@ -5,22 +5,18 @@
 Thnx is a Fully Customizable Open Source Library Attribution framework that is used to credit the teams behind the code you use in your projects.
 
 <br /> 
-<br /> 
-
 <a href="url">
 <img src="https://github.com/adamdahan/Thnx/blob/master/README-assets/readme-gif.gif" height="500" width="290" >
 <img src="https://github.com/adamdahan/Thnx/blob/master/README-assets/snapshot2.png" height="500" width="290" >
 <img src="https://github.com/adamdahan/Thnx/blob/master/README-assets/snapshot3.png" height="500" width="290" >
 </a>
-
-
 <br /> 
-<br /> 
-
 
 ## Latest example project
 
 - [Download the latest example](https://github.com/adamdahan/Thnx/tree/master/Example).
+
+<br /> 
 
 ## Features
 
@@ -35,11 +31,15 @@ Thnx is a Fully Customizable Open Source Library Attribution framework that is u
 - [x] Swift 3
 - [x] iOS 10
 
+<br /> 
+
 ## Coming soon
 
 - [x] Support for macOS repositories
 - [x] Super jumbo feature
 - [x] Customizable error message in ThnxViewController if fails to fetch repository license (no network failures)
+
+<br /> 
 
 ## Usage
 
