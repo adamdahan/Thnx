@@ -14,6 +14,5 @@ Github has a large iOS open source community and we wanted to give a way for the
 
 ## Features
 
-- [x] Completely Customizable 
-- [x] ThnxViewController - With built in support for dynamic text sizing 
+- [x] ThnxViewController - With built in support for dynamic text sizing + exposed properties for UI customizations
 - [x] Thnx
