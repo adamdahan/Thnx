@@ -16,3 +16,6 @@ Github has a large iOS open source community and we wanted to give a way for the
 
 - [x] ThnxViewController - With built in support for dynamic text sizing + exposed properties for UI customizations
 - [x] Thnx
+
+
+![Thnx](https://github.com/adamdahan/Thnx/blob/master/README-assets/readme-gif.gif)
