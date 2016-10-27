@@ -31,7 +31,7 @@ Thnx is a Fully Customizable Open Source Library Attribution framework that is u
 
 - [x] Support for macOS repositories
 - [x] Super jumbo feature
-- [x] Customizable error message if fails to fetch repository license (no network failures)
+- [x] Customizable error message in ThnxViewController if fails to fetch repository license (no network failures)
 
 ## Usage
 
