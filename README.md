@@ -46,13 +46,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
     
     lazy var thnxViewController: ThnxViewController = {
-        let urls = [Url.Alamofire,
-                    Url.MBProgressHUD,
-                    Url.ImagePicker,
-                    Url.Graph,
-                    Url.Algorithm,
-                    Url.Material]
-        return ThnxViewController(urls: urls)
+        return ThnxViewController(urls: [Url.Graph, Url.Algorithm, Url.Material])
     }()
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
