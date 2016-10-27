@@ -29,7 +29,8 @@ Thnx is a Open Source Library Attribution framework that is used to credit the t
 
 ## Coming soon
 
-- [x] Support for MacOS Repository Licenses
+- [x] Support for macOS repositories
+- [x] Super jumbo feature
 
 ## Usage
 
