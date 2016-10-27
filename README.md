@@ -29,7 +29,7 @@ Thnx is a Open Source Library Attribution framework that is used to credit the t
 ## Usage
 
 ```swift
-   import UIKit
+import UIKit
 import Thnx
 
 @UIApplicationMain
