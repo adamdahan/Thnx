@@ -1,4 +1,4 @@
-![Thnx](https://github.com/adamdahan/Thnx/blob/master/README-assets/logo-big.png)
+   ![Thnx](https://github.com/adamdahan/Thnx/blob/master/README-assets/logo-big.png)
 
 ## Welcome to Thnx
 
