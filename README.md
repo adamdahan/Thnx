@@ -25,3 +25,15 @@ Thnx is a Open Source Library Attribution framework that is used to credit the t
 - [x] Use license data in your own custom views
 - [x] Swift 3
 - [x] iOS 10
+
+## Usage
+
+```swift
+    // Default ThnxViewController
+    lazy var thnxViewController: ThnxViewController = {
+        let urls = [Url.Graph,
+                    Url.Algorithm,
+                    Url.Material]
+        return ThnxViewController(urls: urls)
+    }()
+```
