@@ -16,6 +16,7 @@ Thnx is a Open Source Library Attribution framework that is used to credit the t
 
 ## Features
 
+- [x] Supports ALL iOS Github Repositories that have a license
 - [x] ThnxViewController 
 - [x] Dynamic Text Sizing 
 - [x] Customizable
@@ -25,6 +26,10 @@ Thnx is a Open Source Library Attribution framework that is used to credit the t
 - [x] Use license data in your own custom views
 - [x] Swift 3
 - [x] iOS 10
+
+## Coming soon
+
+- [x] Something
 
 ## Usage
 
