@@ -2,7 +2,7 @@
 
 ## Welcome to Thnx
 
-Thnx is a Open Source Library Attribution framework that is used to credit the teams behind the code you use in your projects.
+Thnx is a Fully Customizable Open Source Library Attribution framework that is used to credit the teams behind the code you use in your projects.
 
 
 <a href="url">
@@ -33,6 +33,8 @@ Thnx is a Open Source Library Attribution framework that is used to credit the t
 - [x] Super jumbo feature
 
 ## Usage
+
+If you would like to use the default ThnxViewController
 
 ```swift
 import UIKit
