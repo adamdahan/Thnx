@@ -37,7 +37,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
     
-    // Vanilla view controller
     lazy var thnxViewController: ThnxViewController = {
         let urls = [Url.Alamofire,
                     Url.MBProgressHUD,
@@ -49,17 +48,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }()
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        prepareWindow()
-        return true
-    }
-}
-
-extension AppDelegate {
-
-    func prepareWindow() {
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.rootViewController = UINavigationController(rootViewController: thnxViewController)
         window?.makeKeyAndVisible()
+        return true
     }
 }
 ```
