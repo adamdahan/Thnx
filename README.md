@@ -1,8 +1,10 @@
-   ![Thnx](https://github.com/adamdahan/Thnx/blob/master/README-assets/logo-big.png)
+   ![Thnx](https://github.com/adamdahan/Thnx/blob/master/README-assets/logo-big-bg.png)
 
 ## Welcome to Thnx
 
 Thnx is a Fully Customizable Open Source Library Attribution framework that is used to credit the teams behind the code you use in your projects.
+
+
 
 
 <a href="url">
@@ -10,6 +12,10 @@ Thnx is a Fully Customizable Open Source Library Attribution framework that is u
 <img src="https://github.com/adamdahan/Thnx/blob/master/README-assets/snapshot2.png" height="500" width="290" >
 <img src="https://github.com/adamdahan/Thnx/blob/master/README-assets/snapshot3.png" height="500" width="290" >
 </a>
+
+
+
+
 
 ## Latest example project
 
