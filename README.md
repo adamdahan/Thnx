@@ -38,7 +38,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
     
     // Vanilla view controller
-    lazy var vanillaThnxViewController: ThnxViewController = {
+    lazy var thnxViewController: ThnxViewController = {
         let urls = [Url.Alamofire,
                     Url.MBProgressHUD,
                     Url.ImagePicker,
@@ -58,7 +58,7 @@ extension AppDelegate {
 
     func prepareWindow() {
         window = UIWindow(frame: UIScreen.main.bounds)
-        window?.rootViewController = UINavigationController(rootViewController: vanillaThnxViewController) // customThnxViewController
+        window?.rootViewController = UINavigationController(rootViewController: thnxViewController) // customThnxViewController
         window?.makeKeyAndVisible()
     }
 }
