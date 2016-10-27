@@ -4,8 +4,8 @@
 
 Thnx is a Fully Customizable Open Source Library Attribution framework that is used to credit the teams behind the code you use in your projects.
 
-
-
+<br /> 
+<br /> 
 
 <a href="url">
 <img src="https://github.com/adamdahan/Thnx/blob/master/README-assets/readme-gif.gif" height="500" width="290" >
@@ -14,7 +14,8 @@ Thnx is a Fully Customizable Open Source Library Attribution framework that is u
 </a>
 
 
-
+<br /> 
+<br /> 
 
 
 ## Latest example project
