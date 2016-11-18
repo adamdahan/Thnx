@@ -14,6 +14,12 @@ Thnx is a Fully Customizable Open Source Library Attribution framework that is u
 </a>
 <br /> 
 
+## Cocoapods Installation
+
+```
+pod Thnx
+```
+
 ## Latest example project
 
 - [Download the latest example](https://github.com/adamdahan/Thnx/tree/master/Example).
