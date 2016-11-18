@@ -107,9 +107,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         t.sectionHeaderFont = UIFont.boldSystemFont(ofSize: 24) // Cancels UITableView section header Dynamic Text Sizing
         t.sectionHeaderTextColor = UIColor.white
         t.sectionHeaderBackgroundColor = UIColor.blue
-        
         t.contentViewBackgroundColor = UIColor.blue.withAlphaComponent(0.6)
-        
         t.textLabelFont = UIFont.italicSystemFont(ofSize: 10) // Cancels UITableViewCell textLabel Dynamic Text Sizing
         t.textLabelTextColor = UIColor.white
         t.textLabelBackgroundColor = UIColor.clear
@@ -119,7 +117,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }()
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
- window = UIWindow(frame: UIScreen.main.bounds)
+        window = UIWindow(frame: UIScreen.main.bounds)
         window?.rootViewController = UINavigationController(rootViewController: customThnxViewController)
         window?.makeKeyAndVisible()        
         return true
