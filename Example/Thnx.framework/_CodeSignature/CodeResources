@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/Thnx-Swift.h</key>
 		<data>
-		4Nbe3fpQ5+q9UETHYHG2kHoqrKA=
+		LNatya9zn/oUudCW6Jw2yQdlstw=
 		</data>
 		<key>Headers/Thnx.h</key>
 		<data>
@@ -14,15 +14,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		yJPKaLtQ2FklJDgiNHXC1ZhmGE0=
+		L+yg/Jt03kDZR4YYP1xVEgDI5xM=
 		</data>
 		<key>Modules/Thnx.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		R2Zv+R36au6PHhQ6Da8aMOdWoj4=
+		CePqYdW4ZCR49bWOv10GKsxgyV8=
 		</data>
 		<key>Modules/Thnx.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		9pdDupCCAjzjrL1hJL84zETxTEw=
+		58miz1tgY8uScsTDY3wqr82sz3U=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -35,11 +35,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			4Nbe3fpQ5+q9UETHYHG2kHoqrKA=
+			LNatya9zn/oUudCW6Jw2yQdlstw=
 			</data>
 			<key>hash2</key>
 			<data>
-			NM1V10GRllK9dHKxcSpo1cip7bPghwZLu1VG/BwDtsU=
+			oMMCcAPX9GXxr4RqGD7Ax6A+AQcw3t0gSgZK0pEjycU=
 			</data>
 		</dict>
 		<key>Headers/Thnx.h</key>
@@ -57,22 +57,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			R2Zv+R36au6PHhQ6Da8aMOdWoj4=
+			CePqYdW4ZCR49bWOv10GKsxgyV8=
 			</data>
 			<key>hash2</key>
 			<data>
-			UHurYVLg3Qj0vhkfKUwq4bW9fMMFwBge3zqH6xeqo7M=
+			rOQ02xNwjpGF0C7Ima3+SfiK597e66Jv8HR4vJz3czc=
 			</data>
 		</dict>
 		<key>Modules/Thnx.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			9pdDupCCAjzjrL1hJL84zETxTEw=
+			58miz1tgY8uScsTDY3wqr82sz3U=
 			</data>
 			<key>hash2</key>
 			<data>
-			WVKRAwi7OpWQV0+EuO2+q5hpW6dY/DCI+vuE4gFByF8=
+			3qZnFPKgVaIoYXNTb5WdeykK+YsHV0s6W85vtDhWZag=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

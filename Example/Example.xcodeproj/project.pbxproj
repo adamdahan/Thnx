@@ -7,21 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A1C89F31DDF556F003D6628 /* Thnx.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A1C89F21DDF556F003D6628 /* Thnx.framework */; };
+		9A1C89F41DDF556F003D6628 /* Thnx.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9A1C89F21DDF556F003D6628 /* Thnx.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		9A4DE4F21DC0244800052003 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4DE4F11DC0244800052003 /* AppDelegate.swift */; };
 		9A4DE4F91DC0244800052003 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A4DE4F81DC0244800052003 /* Assets.xcassets */; };
 		9A4DE4FC1DC0244800052003 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A4DE4FA1DC0244800052003 /* LaunchScreen.storyboard */; };
-		9AFA38EB1DC12FA6007B99EB /* Thnx.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AFA38EA1DC12FA6007B99EB /* Thnx.framework */; };
-		9AFA38EC1DC12FA6007B99EB /* Thnx.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9AFA38EA1DC12FA6007B99EB /* Thnx.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		9A4DE5061DC0256400052003 /* Embed Frameworks */ = {
+		9A1C89F51DDF556F003D6628 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				9AFA38EC1DC12FA6007B99EB /* Thnx.framework in Embed Frameworks */,
+				9A1C89F41DDF556F003D6628 /* Thnx.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -29,12 +29,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		9A1C89F21DDF556F003D6628 /* Thnx.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Thnx.framework; sourceTree = "<group>"; };
 		9A4DE4EE1DC0244800052003 /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A4DE4F11DC0244800052003 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9A4DE4F81DC0244800052003 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9A4DE4FB1DC0244800052003 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9A4DE4FD1DC0244800052003 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9AFA38EA1DC12FA6007B99EB /* Thnx.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Thnx.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,7 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9AFA38EB1DC12FA6007B99EB /* Thnx.framework in Frameworks */,
+				9A1C89F31DDF556F003D6628 /* Thnx.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,7 +52,7 @@
 		9A4DE4E51DC0244800052003 = {
 			isa = PBXGroup;
 			children = (
-				9AFA38EA1DC12FA6007B99EB /* Thnx.framework */,
+				9A1C89F21DDF556F003D6628 /* Thnx.framework */,
 				9A4DE4F01DC0244800052003 /* Example */,
 				9A4DE4EF1DC0244800052003 /* Products */,
 			);
@@ -87,7 +87,7 @@
 				9A4DE4EA1DC0244800052003 /* Sources */,
 				9A4DE4EB1DC0244800052003 /* Frameworks */,
 				9A4DE4EC1DC0244800052003 /* Resources */,
-				9A4DE5061DC0256400052003 /* Embed Frameworks */,
+				9A1C89F51DDF556F003D6628 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -105,7 +105,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = 88Labs;
 				TargetAttributes = {
 					9A4DE4ED1DC0244800052003 = {
@@ -186,6 +186,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -235,6 +236,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
