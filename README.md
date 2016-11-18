@@ -82,7 +82,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 }
 ```
 
-Here is an example of a custom view controller using the Thnx object
+Here is an example of a custom view controller
 
 ```swift
 import UIKit
