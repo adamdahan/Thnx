@@ -1,40 +1,70 @@
-![Thnx](https://github.com/adamdahan/Thnx/blob/master/README-assets/logo-big-bg.png)
+   ![Thnx](https://github.com/adamdahan/Thnx/blob/master/README-assets/logo-big-bg.png)
+
+<br /> 
 
 ## Welcome to Thnx
 
-Thnx is a Open Source Library Attribution framework that is used to credit the teams behind the code you use in your projects.
+Thnx is a Fully Customizable Open Source Library Attribution framework that is used to credit the teams behind the code you use in your projects.
 
-![Material Sample](http://cosmicmind.io/samples/github/page-tab-bar-controller-2.png)
+<br /> 
+<a href="url">
+<img src="https://github.com/adamdahan/Thnx/blob/master/README-assets/readme-gif.gif" height="500" width="290" >
+<img src="https://github.com/adamdahan/Thnx/blob/master/README-assets/snapshot2.png" height="500" width="290" >
+<img src="https://github.com/adamdahan/Thnx/blob/master/README-assets/snapshot3.png" height="500" width="290" >
+</a>
+<br /> 
 
-* [Download the latest sample](https://github.com/CosmicMind/Samples/tree/master/Graph/CardTableView).
+## Latest example project
 
-## About Material 2
+- [Download the latest example](https://github.com/adamdahan/Thnx/tree/master/Example).
 
-The first version of Material was to bring Material Design to iOS. We considered that a great starting point, but not the entire story. Material 2 is the next chapter, which goes deeper into iOS with refined APIs that simplify Architecture, Photo Library, Reminders, Text Editing, Photo & Video, and much more. In addition to Material Design, we love Apple’s flat UI. Having this in mind, we made it possible to accomplish both UI styles with ease.
-
-## Why A Separate Samples Repo?
-
-We moved all sample projects to a separate repo named [Samples](https://github.com/CosmicMind/Samples) to allow their development to be independent of the Material framework. There has been instances where we needed to update the versions of the framework to accommodate changes that only occurred in the sample projects. 
+<br /> 
 
 ## Features
 
-- [x] Completely Customizable
-- [x] Animations
-- [x] Grid System
-- [x] Layout Library
-- [x] Color Library
-- [x] Photo Library
-- [x] Photo & Video
-- [x] Cards
-- [x] Menus
-- [x] Icons
-- [x] TextField
-- [X] Snackbar
-- [x] TabBar
-- [x] PageTabBar
-- [X] SearchBar
-- [x] NavigationController
-- [x] NavigationDrawer
-- [x] BottomNavigationBar
-- [x] Sample Projects
-- [x] And More...
+- [x] Supports ALL **iOS** Github Repositories that have a license
+- [x] ThnxViewController 
+- [x] Dynamic Text Sizing 
+- [x] Customizable
+- [x] Works out of the box
+- [x] Supports Orientation changes
+- [x] Thnx
+- [x] Use license data in your own custom views
+- [x] Swift 3
+- [x] iOS 10
+
+<br /> 
+
+## Coming soon
+
+- [x] Support for macOS repositories
+- [x] Super jumbo feature
+- [x] Customizable error message in ThnxViewController if fails to fetch repository license (no network failures)
+
+<br /> 
+
+## Usage
+
+If you would like to use the default ThnxViewController
+
+```swift
+import UIKit
+import Thnx
+
+@UIApplicationMain
+class AppDelegate: UIResponder, UIApplicationDelegate {
+
+    var window: UIWindow?
+    
+    lazy var thnxViewController: ThnxViewController = {
+        return ThnxViewController(urls: [Url.Graph, Url.Algorithm, Url.Material])
+    }()
+
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+        window = UIWindow(frame: UIScreen.main.bounds)
+        window?.rootViewController = UINavigationController(rootViewController: thnxViewController)
+        window?.makeKeyAndVisible()
+        return true
+    }
+}
+```
