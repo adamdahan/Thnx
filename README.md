@@ -51,7 +51,7 @@ pod Thnx
 
 ## Usage
 
-Here is an example of using both the Default ThnxViewController & Just using the Thnx object for custom view controllers
+Here is an example of using ThnxViewController out of the box
 
 ```swift
 import UIKit
@@ -72,7 +72,27 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                     Url.Material]
         return ThnxViewController(urls: urls)
     }()
-    
+
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+        window = UIWindow(frame: UIScreen.main.bounds)
+        window?.rootViewController = UINavigationController(rootViewController: vanillaThnxViewController) customThnxViewController
+        window?.makeKeyAndVisible()
+        return true
+    }
+}
+```
+
+Here is an example of a custom view controller using the Thnx object
+
+```swift
+import UIKit
+import Thnx
+
+@UIApplicationMain
+class AppDelegate: UIResponder, UIApplicationDelegate {
+
+    var window: UIWindow?
+   
     // Custom view controller
     lazy var customThnxViewController: ThnxViewController = {
         let urls = [Url.Alamofire,
@@ -99,17 +119,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }()
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        prepareWindow()
+ window = UIWindow(frame: UIScreen.main.bounds)
+        window?.rootViewController = UINavigationController(rootViewController: customThnxViewController)
+        window?.makeKeyAndVisible()        
         return true
-    }
-}
-
-extension AppDelegate {
-
-    func prepareWindow() {
-        window = UIWindow(frame: UIScreen.main.bounds)
-        window?.rootViewController = UINavigationController(rootViewController: vanillaThnxViewController) // customThnxViewController
-        window?.makeKeyAndVisible()
     }
 }
 ```
