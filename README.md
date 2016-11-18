@@ -53,8 +53,15 @@ pod Thnx
 
 I provided a Url class that has some common repositories used in the Github community. Thnx understands standard github urls so just copy them for your web browser when constructing a controller or thnx object.
 ```
+// Example of a valid url from Github
 https://github.com/JSSAlertView/JSSAlertView
 ``` 
+
+## Note
+
+Thnx only supports Github repositories
+
+## Example
 
 Here is an example of using ThnxViewController out of the box
 
