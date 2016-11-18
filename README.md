@@ -137,4 +137,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 }
 ```
 
-[Thnx.io](http://thnx.io)
+
+
+Made with love from [Thnx.io](http://thnx.io)
