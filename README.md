@@ -43,7 +43,7 @@ pod Thnx
 
 ## Coming soon
 
-- [x] Support for macOS repositories
+- [x] Support for macOS 
 - [x] Super jumbo feature
 - [x] Customizable error message in ThnxViewController if fails to fetch repository license (no network failures)
 
