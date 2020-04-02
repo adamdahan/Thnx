@@ -1,4 +1,4 @@
-   ![Thnx](https://github.com/adamdahan/Thnx/blob/master/README-assets/logo-big-bg.png)
+   ![Thnx](https://github.com/adamdahan/Thnx/blob/master/icon-set.png)
 
 <br /> 
 
